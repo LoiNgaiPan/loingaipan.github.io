@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title></title>
-  </head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #16EE13;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #E8EE3D;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #16EE13;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #16EE13;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #E8EE3D;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #E8EE3D;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style> </head>
   <body>
-    <p>123<br>
-    </p>
-    
+    <div class="header">
+      <h1>健康的生活</h1>
+      <p>有益于健康的习惯化的行为方式.</p>
+    </div>
+    <div class="topnav"> <a href="2.html">健康膳食</a> <a href="3.html">健康运动</a> <a href="4.html">戒烟限酒</a>
+      <a href="5.html">心理平衡</a> <a href="1.html" style="float:right">健康的生活</a>
+    </div>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>健康生活</h2>
+          <h5>健康生活是指有益于健康的习惯化的行为方式，具体表现为生活有规律，没有不良嗜好，讲究个人、环境和饮食卫生，讲科学、不迷信，平时注意保健，生病及时就医，积极参加有益的健康文体活动和社会活动等。
+            让健康改变生活！“世界领先、独享尊贵”即健康理念是人们所追求的，健康生活并有着“激励、创新、包容”的精神。</h5>
+          <div class="fakeimg" style="height:200px;">
+            <img src="1.jpg" width="400" height="150" alt="my photo"></div>
+          <p>文明生活</p>
+          <p>指健康文明的生活方式，杜绝黄赌毒。健康生活方式五要素说来容易，做起难，一个公民长期保持合理膳食、适量运动、戒烟限酒和心理平衡，那决非易事，每个人面对纷繁复杂的社会，人际关系、交际应酬，礼尚往来，民间风俗，工作竞争等等，每个公民从小起，就可能面临生活压力、家庭不和。
+            成人后就业、婚姻、生育、子女培养、赡养老人，工作岗位等等实际问题，再加上种种社会不良习俗，但是的健康问题比比皆是，据不全统计，常见的各种疾病，大约71%~85%和不良的健康方式有关，例如有的地方酗酒之风盛行，男同志酒精性肝病的患病率高达42%。</p>
+        </div>
+        <div class="card">
+          <h2>健康理念</h2>
+          <h5>让健康改变生活！“世界领先、世界一流、独享尊贵”即“WOW”(World Best Expectation; World First Expectation; Only For You )健康理念，并有着“激励、创新、包容”的精神。
+            健康生活要有规律,早睡早起,人的最佳睡眠时间是晚上10点到第二天6点.然后就是饮食要有规律,多吃水果青菜.坚持体育锻炼 。一天三餐要按时吃，可以减少胃病的，少抽烟喝酒，多吃水果，不要节食减肥，很伤身体的，还要适当吃肉，多吃时节青菜，最好每个星期抽一天吃素，清清肠胃，有益身心。</h5>
+          <div class="fakeimg" style="height:200px;"><img src="2.jpg" width="400" height="150" alt="my photo"></div>
+          <p>健康管理</p>
+          <p>世界卫生组织对影响健康的因素进行过如下总结：
+            健康 = 60%生活方式 + 15%遗传因素 + 10%社会因素 + 8%医疗因素 + 7%气候因素
+            由此可见生活方式管理是新兴起的个人健康管理中最重要的一个策略。健康生活方式是需要培养的，培养的主动性在人们自己。生活方式管理的观念就是强调个体对自己的健康负责。</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h2>完</h2>
+    </div>
   </body>
 </html>

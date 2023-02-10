@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #16EE13;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #E8EE3D;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #16EE13;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #16EE13;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #E8EE3D;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #E8EE3D;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style> </head>
+  <body>
+    <div class="header">
+      <h1>健康膳食</h1>
+      <p>健康膳食又称平衡膳食。健康膳食是指膳食中所含营养素种类齐全，数量充足，比例适当，且与人体的需要保持平衡，又不会导致热量过多摄入。健康膳食的目的是促进人体正常发育，确保各组织器官和机能的正常活动，提高人体对疾病的抵抗力，进而提高工作效率，延长寿命。/p>
+    </div>
+    <div class="topnav"> <a href="2.html">健康膳食</a> <a href="3.html">健康运动</a> <a href="4.html">戒烟限酒</a>
+      <a href="5.html">心理平衡</a> <a href="1.html" style="float:right">健康的生活</a>
+    </div>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>如何健康饮食</h2>
+          <h5>健康饮食通常需要保持食物营养均衡，保证良好的饮食习惯。人体所需的营养素主要包括蛋白质、脂类、碳水化合物等宏观营养素，矿物质和维生素等微量营养素，以及水和纤维素等。平时需要充分补充各种营养物质，保证水果、蔬菜、肉类、蛋类、粗粮等多种食物的均衡摄入，可以根据膳食指南建议分配，并保证每日饮水量。同时还要注意规律饮食，避免暴饮暴食。</h5>
+          <div class="fakeimg" style="height:200px;">
+            <img src="3.jpg" width="400" height="150" alt="my photo"></div>
+          <p>保持食物营养均衡</p>
+          <p>1、谷类、薯类及杂豆食物250-400g/d；
+
+            2、蔬菜和水果分别为300-500g/d和200-400g/d；
+            
+            3、鱼、禽、肉、蛋等动物性食物125-225g/d(鱼虾类50-100g/d，畜、禽肉50-75g/d，蛋类25-50g/d)；
+            4、奶类及奶制品300g/d和大豆及豆制品30-50g/d；
+            5、烹调油不超过25-30g/d，食盐不超过6g/d，糖类的摄入不超过25g/d。</p>
+        </div>
+        <div class="card">
+          <h2>保证良好的饮食习惯</h2>
+          <h5>日常三餐主要是通过人体能量需求而定，根据个人饥饱情况，以及体力劳动等多种因素，应该尽量保证规律饮食，同时应该适量饮食、饥饱适度，避免暴饮暴食。根据食物能量比例分配，午餐可占一天中摄入食物总量的40%左右，早餐及晚餐一般在30%左右即可。</h5>
+          <div class="fakeimg" style="height:200px;"><img src="4.jpg" width="400" height="150" alt="my photo"></div>
+          <p>其他</p>
+          <p>油脂、食盐等合理摄入也是健康饮食的重要组成部分，一般建议日常饮食以植物为主，适量补充动物性食物，并且应该尽量减少食盐的摄入量。此外，锻炼可加速胃肠蠕动，饭后可适当进行散步、瑜伽等运动。</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h2>完</h2>
+    </div>
+  </body>
+</html>
